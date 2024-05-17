@@ -1,0 +1,45 @@
+2
+10:00 20:00
+15
+10:05 1 client1
+10:10 2 client1 1
+10:15 1 client2
+10:20 2 client2 2
+10:30 4 client1
+10:35 1 client3
+10:40 2 client3 1
+11:00 4 client2
+11:05 1 client4
+11:10 2 client4 2
+11:15 1 client5
+11:20 3 client5
+11:20 13 ICanWaitNoLonger! 
+11:25 4 client3
+12:00 4 client4
+13:00 4 client5
+14:00 1 client6
+14:05 2 client6 1
+15:00 4 client6
+16:00 1 client7
+16:05 2 client7 2
+17:00 4 client7
+18:00 4 client6
+19:00 1 client8
+19:05 2 client8 1
+19:10 4 client8
+
+Вывод в консооль:
+10:00
+10:05 1 client1
+10:10 2 client1 1
+10:15 1 client2
+10:20 2 client2 2
+10:30 4 client1
+10:35 1 client3
+10:40 2 client3 1
+11:00 4 client2
+11:05 1 client4
+11:10 2 client4 2
+11:15 1 client5
+11:20 3 client5
+->Format error! The event IDs must be positiv and integer<-

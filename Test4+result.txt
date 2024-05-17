@@ -1,0 +1,127 @@
+3
+14:00 21:00
+18
+14:05 1 player1
+14:10 2 player1 1
+14:15 1 player2
+14:20 2 player2 2
+14:25 1 player3
+14:30 3 player3
+14:38 1 player4
+14:40 2 player4 1
+14:45 4 player1
+14:50 1 player5
+14:55 3 player5
+15:00 4 player2
+15:05 1 player6
+15:10 2 player6 2
+15:15 4 player3
+15:20 1 player7
+15:25 3 player7
+15:30 4 player4
+15:35 1 player8
+15:40 2 player8 3
+15:45 4 player5
+15:50 1 player9
+15:55 3 player9
+16:00 4 player6
+16:05 1 player10
+16:10 2 player10 1
+16:15 4 player7
+16:20 1 player11
+16:25 3 player11
+16:30 4 player8
+16:35 1 player12
+16:40 2 player12 2
+16:45 4 player9
+16:50 1 player13
+16:55 3 player13
+17:00 4 player10
+17:05 4 player11
+17:10 4 player12
+17:15 4 player13
+18:25 1 player14
+18:30 2 player14 3
+18:35 1 player15
+18:40 3 player15
+18:45 1 player16
+18:50 2 player16 1
+19:00 4 player14
+19:05 4 player15
+19:10 4 player16
+19:15 1 player17
+19:20 3 player17
+19:25 4 player17
+19:30 1 player18
+19:35 2 player18 2
+19:40 4 player18
+
+Вывод в консоль:
+14:00
+14:05 1 player1
+14:10 2 player1 1
+14:15 1 player2
+14:20 2 player2 2
+14:25 1 player3
+14:30 3 player3
+14:30 13 ICanWaitNoLonger!
+14:38 1 player4
+14:40 2 player4 1
+14:40 13 PlaceIsBusy
+14:45 4 player1
+14:50 1 player5
+14:55 3 player5
+14:55 13 ICanWaitNoLonger!
+15:00 4 player2
+15:05 1 player6
+15:10 2 player6 2
+15:15 4 player3
+15:20 1 player7
+15:25 3 player7
+15:25 13 ICanWaitNoLonger!
+15:30 4 player4
+15:35 1 player8
+15:40 2 player8 3
+15:45 4 player5
+15:50 1 player9
+15:55 3 player9
+15:55 13 ICanWaitNoLonger!
+16:00 4 player6
+16:05 1 player10
+16:10 2 player10 1
+16:15 4 player7
+16:20 1 player11
+16:25 3 player11
+16:25 13 ICanWaitNoLonger!
+16:30 4 player8
+16:35 1 player12
+16:40 2 player12 2
+16:45 4 player9
+16:50 1 player13
+16:55 3 player13
+16:55 13 ICanWaitNoLonger!
+17:00 4 player10
+17:05 4 player11
+17:10 4 player12
+17:15 4 player13
+18:25 1 player14
+18:30 2 player14 3
+18:35 1 player15
+18:40 3 player15
+18:40 13 ICanWaitNoLonger!
+18:45 1 player16
+18:50 2 player16 1
+19:00 4 player14
+19:05 4 player15
+19:10 4 player16
+19:15 1 player17
+19:20 3 player17
+19:20 13 ICanWaitNoLonger!
+19:25 4 player17
+19:30 1 player18
+19:35 2 player18 2
+19:40 4 player18
+21:00
+1 180 09:15
+2 54 02:05
+3 36 01:20

@@ -1,0 +1,7 @@
+Пример для файлов в домашней папке:
+g++ main.cpp -o myprogram
+./myprogram text.txt
+
+В ином случае необходимо указывать путь к файлам.
+g++ /путь/к/папке/main.cpp -o myprogram
+./myprogram  /путь/text.txt

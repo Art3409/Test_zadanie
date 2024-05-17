@@ -1,0 +1,83 @@
+5
+10:00 22:00
+15
+09:00 1 client1
+10:15 2 client1 1
+10:30 1 client2
+10:45 2 client2 2
+11:00 1 client3
+11:15 1 client4
+11:30 2 client4 3
+11:45 2 client3 4
+12:00 4 client1
+12:15 4 client2
+12:30 3 client4
+12:45 3 client3
+13:00 1 client5
+13:15 2 client5 5
+13:30 4 client3
+14:00 1 client6
+14:15 2 client6 4
+14:30 4 client2
+15:00 4 client1
+15:15 4 client4
+15:30 4 client5
+15:45 4 client6
+20:00 1 client7
+20:15 2 client7 1
+20:30 1 client8
+20:45 2 client8 2
+21:00 1 client9
+21:15 2 client9 3
+21:30 1 client10
+21:45 2 client10 4
+
+Вывод в консоль:
+10:00
+09:00 1 client1
+09:00 13 NotOpenYet
+10:15 2 client1 1
+10:15 13 ClientUnknown
+10:30 1 client2
+10:45 2 client2 2
+11:00 1 client3
+11:15 1 client4
+11:30 2 client4 3
+11:45 2 client3 4
+12:00 4 client1
+12:00 13 ClientUnknown
+12:15 4 client2
+12:30 3 client4
+12:30 13 ICanWaitNoLonger!
+12:45 3 client3
+12:45 13 ICanWaitNoLonger!
+13:00 1 client5
+13:15 2 client5 5
+13:30 4 client3
+14:00 1 client6
+14:15 2 client6 4
+14:30 4 client2
+14:30 13 ClientUnknown
+15:00 4 client1
+15:00 13 ClientUnknown
+15:15 4 client4
+15:30 4 client5
+15:45 4 client6
+20:00 1 client7
+20:15 2 client7 1
+20:30 1 client8
+20:45 2 client8 2
+21:00 1 client9
+21:15 2 client9 3
+21:30 1 client10
+21:45 2 client10 4
+22:00 11 client10
+22:00 11 client7
+22:00 11 client8
+22:00 11 client9
+22:00
+1 60 03:30
+2 30 01:45
+3 45 02:45
+4 75 04:30
+5 45 02:15
